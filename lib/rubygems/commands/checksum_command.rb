@@ -29,7 +29,7 @@ class Gem::Commands::ChecksumCommand < Gem::Command
 
   def description
     <<END
-Calculcates the checksum for a gem
+Calculates the checksum for a gem
 END
   end
 
@@ -48,7 +48,7 @@ END
         say "Checksum validated"
       else
         say "Calculated checksum not equal to given checksum: " <<
-            "\nExpected:\t#{compare_to}\nCalculcated:\t#{checksum}"
+            "\nExpected:\t#{compare_to}\nCalculated:\t#{checksum}"
       end
     end
   end
