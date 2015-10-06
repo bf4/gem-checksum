@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["github@benjaminfleischer.com"]
   spec.description   = %q{gem checksum [gem]}
   spec.summary       = %q{calculates and verifies checksums for rubygems}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/bf4/gem-checksum"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
